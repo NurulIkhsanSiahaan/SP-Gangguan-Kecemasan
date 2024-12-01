@@ -14,5 +14,19 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // \App\Models\User::factory(10)->create();
+        
+        $seeders = [
+            'PermissionTableSeeder',
+            'CreateAdminUserSeeder',
+            'UserSeeder',
+            'CreateGejalaSeeder',
+            'CreatePenyakitSeeder',
+            'GejalaPenyakitSeeder',
+            // 'CreateRuleSeeder',
+        ];
+
+        foreach ($seeders as $seeder) {
+            (new ("Database\\Seeders\\" . $seeder)())->run();
+        }
     }
 }
