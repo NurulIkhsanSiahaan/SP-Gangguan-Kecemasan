@@ -6,6 +6,7 @@ use App\Models\User;
 use Illuminate\Database\Seeder;
 use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
+use Illuminate\Support\Facades\Hash;
 
 class UserSeeder extends Seeder
 {
@@ -19,7 +20,7 @@ class UserSeeder extends Seeder
         $user = User::create([
             'name' => 'Johni', 
             'username' => 'johni',
-            'password' => bcrypt('john123')
+            'password' => Hash::make('john123')
         ]);
 
         $role = Role::create(['name' => 'Pengguna']);

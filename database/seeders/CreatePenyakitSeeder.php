@@ -16,39 +16,24 @@ class CreatePenyakitSeeder extends Seeder
     {
         $data = [
             [
-                'nama' => 'Influenza',
-                'kode' => 'P001',
-                'penyebab' => 'Secara langsung apabila cipratan air dari mulut (droplet) mengenai orang lain—saat bersin, batuk, atau berbicara. Penularan secara tidak langsung terjadi apabila Anda menyentuh permukaan atau benda yang telah terkontaminasi virus flu, lalu tangan Anda menyentuh mulut dan hidung sehingga virus masuk ke dalam tubuh.'
+                'nama' => 'Gangguan Kecemasan Sosial',
+                'kode' => 'P1',
+                'penyebab' => 'Gangguan Kecemasan Sosial atau juga biasa disebut fobia sosial, adalah kondisi mental di mana seseorang mengalami kecemasan berlebihan dan ketakutan terhadap situasi sosial atau saat tampil di depan orang lain. Penderita gangguan kecemasan sosial sering merasa khawatir akan dinilai, diejek, atau merasa malu di hadapan orang lain, sehingga mereka cenderung menghindari situasi sosial atau menghadapinya dengan ketegangan yang tinggi.'
             ],
             [
-                'nama' => 'Demam berdarah dengue(DBD)',
-                'kode' => 'P002',
-                'penyebab' => 'Virus dengue masuk ke tubuh manusia melalui gigitan nyamuk Aedes aegypti. Jumlah nyamuk Aedes aegypti biasanya meningkat pada awal musim hujan.'
+                'nama' => 'Gangguan Panik',
+                'kode' => 'P2',
+                'penyebab' => 'Gangguan Panik adalah jenis gangguan kecemasan yang ditandai oleh serangan ketakutan yang intens dan mendadak, yang sering kali terjadi secara berulang. Gejala fisik yang mungkin muncul meliputi nyeri dada, jantung berdebar, sesak napas, pusing, atau gangguan pencernaan. Serangan ini muncul secara tiba-tiba dan tidak selalu terkait dengan ketakutan atau pemicu stres yang jelas.'
             ],
             [
-                'nama' => 'Hepatitis',
-                'kode' => 'P003',
-                'penyebab' => 'Melalui makanan atau minuman yang tidak bersih, misalnya es batu yang proses pembuatannya terkontaminasi virus hepatitis. Penularan virus hepatitis B dan hepatitis C melalui darah dan cairan tubuh yang terinfeksi; seperti transfusi darah, hubungan seks, pembuatan tato dan tindik, serta injeksi.'
+                'nama' => 'Gangguan Kecemasan Umum',
+                'kode' => 'P3',
+                'penyebab' => 'Gangguan Kecemasan Umum adalah kondisi mental yang ditandai oleh kecemasan yang berlebihan, berkepanjangan, dan sulit untuk dikendalikan. Penderita gangguan ini sering kali merasa khawatir atau cemas mengenai berbagai aspek kehidupan sehari-hari, bahkan tanpa alasan yang jelas. Kecemasan yang berlebihan ini dapat mengganggu fungsi sehari-hari dan mempengaruhi kualitas hidup individu.'
             ],
             [
-                'nama' => 'Malaria',
-                'kode' => 'P004',
-                'penyebab' => 'Parasit plasmodium dibawa dan disebarkan oleh nyamuk Anopheles yang kemudian menggigit manusia.'
-            ],
-            [
-                'nama' => 'Campak',
-                'kode' => 'P005',
-                'penyebab' => 'Virus penyebab campak menular melalui percikan air liur penderita saat batuk atau bersin. Selain itu, bisa karena Anda menyentuh benda yang telah terpercik air liur penderita'
-            ],
-            [
-                'nama' => 'Tifus',
-                'kode' => 'P006',
-                'penyebab' => 'Virus penyebab campak menular melalui percikan air liur penderita saat batuk atau bersin. Selain itu, bisa karena Anda menyentuh benda yang telah terpercik air liur penderita'
-            ],
-            [
-                'nama' => 'Cacingan',
-                'kode' => 'P007',
-                'penyebab' => 'Telur cacing dapat masuk melalui kuku dan tangan yang tidak bersih yang kemudian menyentuh mulut atau makanan. Selain itu, cacing juga bisa masuk lewat makanan yang tidak dibersihkan dengan baik sebelum dimasak serta penggunaan barang yang sudah terkontaminasi cacing (handuk, pakaian, atau sprei).'
+                'nama' => 'Gangguan Stres Pascatrauma',
+                'kode' => 'P4',
+                'penyebab' => 'Gangguan Stres Pasca Trauma adalah kondisi kesehatan mental yang serius yang dapat muncul setelah seseorang mengalami atau menyaksikan peristiwa traumatis yang berat. Peristiwa tersebut bisa mencakup bencana alam, kecelakaan, kekerasan, perang, atau pengalaman traumatis lainnya. Gangguan ini dapat menyebabkan penderita mengalami berbagai gejala emosional, fisik, dan perilaku yang mengganggu kehidupan sehari-hari mereka.'
             ]
 
         ];

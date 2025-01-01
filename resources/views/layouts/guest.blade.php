@@ -17,6 +17,10 @@
         <div class="container-login">
             <div class="row justify-content-center">
                 <div class="col-md-6">
+                    <h3 class="mt-5 text-dark text-center">
+                    Diagnosa Gangguan Kecemasan
+
+                    </h3>
                     {{ $slot }}
                 </div>
             </div>

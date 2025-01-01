@@ -3,7 +3,7 @@
         <div class="sidebar-brand-icon">
             <img src="{{ asset((setting('logo')) ? '/storage/'.setting('logo') : 'dist/img/logo/logo2.png') }}">
         </div>
-        <div class="sidebar-brand-text mx-3">SIDAPM</div>
+        <div class="sidebar-brand-text mx-3">DIAGNOSA GANGGUAN KECEMASAN</div>
     </a>
     <hr class="sidebar-divider my-0">
 
